@@ -1,7 +1,8 @@
 # 📡Adressage et VM
 
 ## 🌐Plage IP
-IPs : 172.16.135.50/ ==> 172.16.135.59 
+IPs : 172.16.135.50 ==> 172.16.135.59
+
 Masque : /16 | 255.255.0.0
 
 ## 🖥️ Les VM
@@ -17,3 +18,8 @@ TAG : g5
 
 ### Port ssh depuis Wan : 
 port : 2222
+
+group : Grp5
+user1 : p4eCF5u6
+user2 : r8unCP56
+pool : Grp5
