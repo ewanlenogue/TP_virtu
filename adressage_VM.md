@@ -62,3 +62,12 @@ ssh g5@172.16.135.50 -p 2222
 |-----------------|-------|--------|------------|--------|--------|
 | **Grp5_u1**     | pve   | ✅ Oui | Jamais    | ❌ Non | Grp5   |
 | **Grp5_u2**     | pve   | ✅ Oui | Jamais    | ❌ Non | Grp5   |
+
+
+## Permision :
+
+| Path                 | User/Group | Role             |
+| -------------------- | ---------- | ---------------- |
+| /pool/Grp5           | @Grp5      | PVEAdmin         |
+| /sdn/zones/Grp5      | @Grp5      | PVESDNUser       |
+| /storage/nfs-storage | @Grp5      | PVEDatastoreUser |
